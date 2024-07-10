@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <aside class="menu-y d-flex position-fixed ">
+        <div class=" menu d-none position-relative ">
+            <i class="fa-solid fa-xmark text-light btn-close position-absolute "></i>
+            <a id="" href="#Home" class="mt-5">Home</a>
+            <a id="" href="#Duration">Duration</a>
+            <a id="" href="#details">Details</a>
+            <a id="" href="#contact">Contact</a>
+        </div>
+        <div class="open">☰ open</div>
+    </aside>
+
+    <div class="loading d-flex justify-content-center align-items-center">
+        <span class="loader"></span>
+    </div>
+    <!-- home -->
+    <section id="Home" class="home position-relative">
+
+        <div class="cover position-absolute d-flex justify-content-center align-items-center">
+
+            <div class="contant text-light text-center position-relative">
+                <h1>Egyption Party</h1>
+                <h5>Let's have Fun</h5>
+
+            </div>
+        </div>
+    </section>
+    <!-- Duration -->
+    <section id="Duration" class="acording d-flex flex-column justify-content-center align-content-center my-5">
+        <div class="container duration">
+            <div class="titile ">
+                <h3 class=" text-light">ٍSinger one</h3>
+            </div>
+            <div class="caption ">
+                <p class="lead">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+
+        </div>
+        <div class="container duration">
+            <div class="titile ">
+                <h3 class="text-light">Singer Two</h3>
+            </div>
+            <div class="caption ">
+                <p class="lead">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+
+        </div>
+        <div class="container duration">
+            <div class="titile">
+                <h3 class="text-light">Singer Three</h3>
+            </div>
+            <div class="caption ">
+                <p class="lead">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+
+        </div>
+        <div class="container duration">
+            <div class="titile">
+                <h3 class="text-light">Singer Four </h3>
+            </div>
+            <div class="caption ">
+                <p class="lead">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- event time Details -->
+    <section class="count-down d-flex justify-content-center align-items-center " id="details">
+        <div class="container-fluid countDown-bg w-100 h-100 d-grid justify-content-center mx-auto w-50">
+            <div class="row  d-flex justify-content-between align-items-center">
+                <div class="row" id="demo">
+                    <div class="col-sm-12 col-md-6 col-lg-3 ">
+                        <div class="count-box d-flex justify-content-center align-items-center">
+                            <h3 class="text-center p-4 mx-4 " id="days"></h3>
+
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="count-box d-flex justify-content-center align-items-center">
+                            <h3 class="text-center p-4 mx-4 " id="hours"></h3>
+
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="count-box d-flex justify-content-center align-items-center">
+                            <h3 class="text-center p-4 mx-4 " id="min"></h3>
+
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="count-box d-flex justify-content-center align-items-center">
+                            <h3 class="text-center p-4 mx-4 " id="sec"></h3>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <div class="container  my-5 py-5">
+            <div class="row ">
+                <h1>JOIN US</h1>
+                <h4 class=" text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </h4>
+            </div>
+            <div class="row my-5 py-5">
+                <div class="col-md-12 col-lg-6">
+                    <h2>CONTACT INFO</h2>
+                    <p class="lead">Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque nascetur ridiculus mus.
+                    </p>
+                    <div class="location">
+                        <div class="d-flex my-3 align-items-center">
+                            <i class="fa-solid fa-location-dot mx-2"></i>
+                            <p>New Street 22545, Nexa Road, New York City, USA</p>
+                        </div>
+                        <div class="d-flex my-3 align-items-center">
+                            <i class="fa-solid fa-envelope mx-2"></i>
+                            <a href="" class="text-danger"> hello@uigrid.com</a>
+                        </div>
+                        <div class="d-flex my-3 align-items-center">
+                            <i class="fa-solid fa-phone mx-2"></i>
+                            <p> 001-000-000-000</p>
+                        </div>
+                    </div>
+                    <div class="row g-3 mt-4">
+                        <div class="col-sm-12 d-flex">
+
+                            <div class="footer-icon p-3 mx-3 d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-twitter"></i>
+
+                            </div>
+                            <div class="footer-icon p-3 mx-3 d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-facebook-f"></i>
+
+                            </div>
+                            <div class="footer-icon p-3 mx-3 d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-instagram"></i>
+
+                            </div>
+                            <div class="footer-icon p-3 mx-3 d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-basketball"></i>
+
+                            </div>
+                            <div class="footer-icon p-3 mx-3 d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-pinterest"></i>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-12 col-lg-6 contact-m">
+                    <input type="text" class="form-control mb-3 w-100" placeholder="Enter Name">
+                    <input type="text" class="form-control mb-3 w-100" placeholder="Enter Email">
+                    <textarea name="" placeholder="Enter Message" class="form-control mb-3 w-100"
+                        id="textArea"></textarea>
+                    <p><span class="text-danger" id="areaCounter">100</span> Characyer Reamining</p>
+                    <button class="btn btn-danger p-2">Send Message</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+:root{
+    scroll-behavior: auto;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 4px solid #FFF;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
+  .loader::after {
+    content: '';  
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border-left: 4px solid #FF3D00;
+    border-bottom: 4px solid transparent;
+    animation: rotation 0.5s linear infinite reverse;
+  }
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg); 
+    }
+  } 
+
+.loading{
+    position: fixed;
+    inset: 0;
+    background-color: #333;
+    z-index: 15;
+}
+.home{
+    background-image:url(../img/events-heavenly-header.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 80vh;
+
+}
+
+.open{
+font-size: 30px;
+line-height: 45px;
+cursor: pointer;
+color: #FFF;
+margin-top: 300px;
+padding-left: 10px;
+
+}
+.menu-y{
+    z-index: 100;
+    width: 25%;
+    white-space:nowrap ;
+    
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    height: 100vh;
+
+    a{
+        padding: 20px 8px 20px 32px;
+        text-decoration: none;
+        color: white;
+        
+    }
+
+}
+.menu a:hover{
+    color: #491211;
+}
+.btn-close{
+    position: absolute;
+    top: 0;
+    left:60%;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.cover{
+    background-color: rgba(214, 46, 51, 0.6);
+    inset: 0;
+}
+
+.duration{
+    width: 50%;
+    .titile{
+        background-color: rgba(214, 46, 51, 0.6);
+        cursor: pointer;
+        text-align: center;
+       padding: 30px;
+    }
+    .caption{
+        display: none;
+    }
+}
+
+
+.count-down {
+    background-image: url(../img/invitation-2508607__340.jpg);
+    height: 35vh;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .count-box {
+    border: 2px solid black;
+  color: white;
+  
+  }
+  
+  .footer-icon {
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    transition: all 0.5s
+  }
+  
+  .footer-icon:hover {
+    background-color: rgba(142, 29, 31);
+  }
+  
+  .footer-icon:hover i {
+    color: white;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  .countDown-bg {
+    background-color: rgba(142, 29, 31, 0.6);
+  
+  }
+  
+  .header {
+    background-color: #E68285;
+  }
+  
+  .content {
+    background-color: #CCCCCC;
+    display: none;
+  
+  }
